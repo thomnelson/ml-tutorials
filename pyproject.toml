@@ -1,0 +1,15 @@
+[project]
+name = "ml-tutorials"
+version = "0.1.0"
+description = "Notebooks covering machine learning concepts and pipelines"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.9",
+    "numpy>=2.4.4",
+    "scikit-learn>=1.8.0",
+    "scipy>=1.17.1",
+    "xgboost>=3.2.0",
+]
